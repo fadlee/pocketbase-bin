@@ -1,5 +1,5 @@
 {
-  "name": "@fadlee/pocketbase",
+  "name": "@fadlee/pocketbase-bin",
   "version": "1.0.0",
   "description": "PocketBase binary wrapper with automatic latest version detection",
   "main": "bin/runner.js",
