@@ -1,0 +1,9 @@
+node_modules
+
+# PocketBase binary
+pocketbase*
+.pocketbase*
+
+# PocketBase data
+pb_data/
+pb_logs/

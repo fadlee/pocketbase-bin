@@ -1,0 +1,31 @@
+{
+  "name": "@fadlee/pocketbase",
+  "version": "1.0.0",
+  "description": "PocketBase binary wrapper with automatic latest version detection",
+  "main": "bin/runner.js",
+  "bin": {
+    "pocketbase": "bin/runner.js"
+  },
+  "scripts": {
+    "test": "node bin/runner.js --help"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "keywords": [
+    "pocketbase",
+    "database",
+    "backend",
+    "sqlite",
+    "latest",
+    "auto-update"
+  ],
+  "author": "Fadlee",
+  "license": "MIT",
+  "os": ["darwin", "linux", "win32"],
+  "cpu": ["x64", "arm64"],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
