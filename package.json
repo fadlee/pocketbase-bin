@@ -7,11 +7,13 @@
     "pocketbase": "bin/runner.js"
   },
   "scripts": {
-    "test": "node bin/runner.js --help"
+    "test": "node bin/runner.js --help",
+    "start": "node bin/runner.js serve"
   },
   "files": [
     "bin/",
-    "lib/"
+    "lib/",
+    "README.md"
   ],
   "keywords": [
     "pocketbase",
@@ -19,10 +21,28 @@
     "backend",
     "sqlite",
     "latest",
-    "auto-update"
+    "auto-update",
+    "binary",
+    "wrapper",
+    "cli",
+    "cross-platform"
   ],
-  "author": "Fadlee",
+  "author": {
+    "name": "Fadlee",
+    "email": "fad.lee@hotmail.com"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fadlee/pocketbase-bin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fadlee/pocketbase-bin/issues"
+  },
+  "homepage": "https://github.com/fadlee/pocketbase-bin#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "os": ["darwin", "linux", "win32"],
   "cpu": ["x64", "arm64"],
   "engines": {
